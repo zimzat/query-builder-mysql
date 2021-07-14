@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="pcsg-generated-ruleset">
+    <file>src</file>
+    <file>tests</file>
+
+    <arg name="basepath" value="." />
+    <arg name="colors" />
+    <arg name="parallel" value="75" />
+    <arg value="p" />
+
+    <rule ref="PSR12" />
+<!--
+    <rule ref="Generic.Formatting.SpaceAfterCast">
+        <properties>
+            <property name="spacing" value="0" />
+        </properties>
+    </rule>
+-->
+</ruleset>
+

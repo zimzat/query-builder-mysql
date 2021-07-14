@@ -1,0 +1,7 @@
+
+# Add a little more context to line diff headers
+*.md diff=markdown
+*.php diff=php
+
+# Don't attempt a text diff merge
+composer.lock merge=binary

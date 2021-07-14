@@ -1,0 +1,38 @@
+{
+    "name": "zimzat/query-builder-mysql",
+    "description": "A simple, flexible, and safe way to dynamically build queries for MySQL or MariaDB",
+    "keywords": ["query builder", "mysql"],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/zimzat/query-builder-mysql",
+        "issues": "https://github.com/zimzat/query-builder-mysql/issues"
+    },
+    "authors": [
+        {
+            "name": "Zimzat",
+            "email": "zimzat@zimzat.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.91",
+        "phpunit/phpunit": "^9",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Zimzat\\QueryBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zimzat\\QueryBuilder\\Tests\\": "tests/"
+        }
+    }
+}

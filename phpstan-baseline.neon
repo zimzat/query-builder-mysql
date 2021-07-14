@@ -1,0 +1,682 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\AssignmentList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:all\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:default\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:equal\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:expr\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\AssignmentList\\:\\:values\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/AssignmentList.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\ColumnList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/ColumnList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ColumnList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ColumnList\\.$#"
+			count: 1
+			path: src/ColumnList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ColumnList\\:\\:all\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ColumnList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ColumnList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/ColumnList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\ColumnList\\:\\:\\$items type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ColumnList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Condition\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Condition.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\ConditionList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:between\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:condition\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:end\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:equal\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:every\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:exists\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:expr\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:greaterThan\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:greaterThanOrEqual\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:group\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:in\\(\\) has parameter \\$values with no value type specified in iterable type iterable\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:in\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:isNotNull\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:isNull\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:lessThan\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:lessThanOrEqual\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:like\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:none\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notBetween\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notEqual\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notExists\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notIn\\(\\) has parameter \\$values with no value type specified in iterable type iterable\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notIn\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:notLike\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:setParent\\(\\) has parameter \\$parent with no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:setParent\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:some\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\ConditionList\\:\\:\\$parent type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/ConditionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Delete\\:\\:joins\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Delete\\:\\:options\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Delete\\:\\:orderBy\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Delete\\:\\:tables\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\TableList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Delete\\:\\:where\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Delete\\:\\:\\$joins type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 2
+			path: src/Delete.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Delete\\:\\:\\$options type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Delete\\:\\:\\$orderBy type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Delete\\:\\:\\$tables type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\TableList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Delete\\:\\:\\$where type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Delete.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\:\\:ignore\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\.$#"
+			count: 1
+			path: src/DeleteOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\:\\:lowPriority\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\.$#"
+			count: 1
+			path: src/DeleteOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\:\\:quick\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\DeleteOptionList\\.$#"
+			count: 1
+			path: src/DeleteOptionList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Expr\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Expr.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\FieldList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/FieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\FieldList\\:\\:add\\(\\) return type has no value type specified in iterable type \\$this\\(Zimzat\\\\QueryBuilder\\\\FieldList\\)\\.$#"
+			count: 1
+			path: src/FieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\FieldList\\:\\:expr\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\FieldList\\.$#"
+			count: 1
+			path: src/FieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\FieldList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/FieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\FieldList\\:\\:setOutputAs\\(\\) return type has no value type specified in iterable type \\$this\\(Zimzat\\\\QueryBuilder\\\\FieldList\\)\\.$#"
+			count: 1
+			path: src/FieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Insert\\:\\:onDuplicateKeyUpdate\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Insert\\:\\:options\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\InsertOptionList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Insert\\:\\:set\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Insert\\:\\:\\$onDuplicateKeyUpdate type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Insert\\:\\:\\$options type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\InsertOptionList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Insert\\:\\:\\$set type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Insert.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\InsertOptionList\\:\\:delayed\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\InsertOptionList\\.$#"
+			count: 1
+			path: src/InsertOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\InsertOptionList\\:\\:highPriority\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\InsertOptionList\\.$#"
+			count: 1
+			path: src/InsertOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\InsertOptionList\\:\\:lowPriority\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\InsertOptionList\\.$#"
+			count: 1
+			path: src/InsertOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Join\\:\\:on\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Join.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Join\\:\\:using\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ColumnList\\.$#"
+			count: 1
+			path: src/Join.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Join\\:\\:\\$on type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Join.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Join\\:\\:\\$using type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ColumnList\\.$#"
+			count: 1
+			path: src/Join.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\JoinList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/JoinList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\JoinList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 1
+			path: src/JoinList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\JoinList\\:\\:all\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/JoinList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\JoinList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/JoinList.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\OptionList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/OptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\OptionList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/OptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\OptionList\\:\\:set\\(\\) return type has no value type specified in iterable type \\$this\\(Zimzat\\\\QueryBuilder\\\\OptionList\\)\\.$#"
+			count: 1
+			path: src/OptionList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\OptionList\\:\\:\\$options type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/OptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\OrderFieldList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/OrderFieldList.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\OrderFieldList\\:\\:\\$directions type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/OrderFieldList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:columns\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\FieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:groupBy\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:having\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:joins\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:options\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:orderBy\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Select\\:\\:where\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$columns type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\FieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$groupBy type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$having type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$joins type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 2
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$options type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$orderBy type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Select\\:\\:\\$where type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Select.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:bigResult\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:bufferResult\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:calcFoundRows\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:distinct\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:highPriority\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:noCache\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:smallResult\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SelectOptionList\\:\\:straightJoin\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\SelectOptionList\\.$#"
+			count: 1
+			path: src/SelectOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\SqlQueryValue\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/SqlQueryValue.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\SqlQueryValue\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/SqlQueryValue.php
+
+		-
+			message: "#^Class Zimzat\\\\QueryBuilder\\\\TableList implements generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/TableList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\TableList\\:\\:add\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\TableList\\.$#"
+			count: 1
+			path: src/TableList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\TableList\\:\\:all\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/TableList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\TableList\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Generator\\.$#"
+			count: 1
+			path: src/TableList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Union\\:\\:orderBy\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Union.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Union\\:\\:\\$orderBy type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Union.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Union\\:\\:\\$selects type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Union.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Update\\:\\:joins\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Update\\:\\:options\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Update\\:\\:orderBy\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Update\\:\\:set\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Update\\:\\:where\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Update\\:\\:\\$joins type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\JoinList\\.$#"
+			count: 2
+			path: src/Update.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Update\\:\\:\\$options type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Update\\:\\:\\$orderBy type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\OrderFieldList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Update\\:\\:\\$set type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\AssignmentList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Property Zimzat\\\\QueryBuilder\\\\Update\\:\\:\\$where type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\ConditionList\\.$#"
+			count: 1
+			path: src/Update.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\:\\:ignore\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\.$#"
+			count: 1
+			path: src/UpdateOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\:\\:lowPriority\\(\\) return type has no value type specified in iterable type Zimzat\\\\QueryBuilder\\\\UpdateOptionList\\.$#"
+			count: 1
+			path: src/UpdateOptionList.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\DeleteTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/DeleteTest.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\InsertTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/InsertTest.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\ReadmeTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/ReadmeTest.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\SelectTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/SelectTest.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\UnionTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/UnionTest.php
+
+		-
+			message: "#^Method Zimzat\\\\QueryBuilder\\\\Tests\\\\UpdateTest\\:\\:assertOutputEquals\\(\\) has parameter \\$parameters with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/UpdateTest.php
+

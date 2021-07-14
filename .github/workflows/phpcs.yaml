@@ -1,0 +1,23 @@
+name: PHPCS
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  tests:
+    name: Linter
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Install dependencies
+        run: composer install
+
+      - name: Run PHP_CodeSniffer
+        run: vendor/bin/phpcs
