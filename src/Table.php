@@ -10,6 +10,9 @@ class Table implements Sql, TableReference
 
     public function __construct(string $table, ?string $alias = null)
     {
+        assert(preg_match('#^[0-9a-zA-Z$_]+$#', $table) === 1);
+        assert($alias === null || preg_match('#^[0-9a-zA-Z$_]+$#', $alias) === 1);
+
         $this->table = $table;
         $this->alias = $alias;
     }
