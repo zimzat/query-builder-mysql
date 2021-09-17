@@ -12,6 +12,9 @@ class Column implements Sql, Field
 
     public function __construct(string $name, ?TableReference $table = null, ?string $alias = null)
     {
+        assert(preg_match('#^([0-9a-zA-Z$_]+|\*)$#', $name) === 1);
+        assert($alias === null || preg_match('#^[0-9a-zA-Z$_]+$#', $alias) === 1);
+
         $this->name = $name;
         $this->table = $table;
         $this->alias = $alias;
